@@ -30,7 +30,7 @@ A software project can be implemented using this model if the project can be bro
 ## REQUIREMENT ELICITATION & ANALYSIS
 
 
-	### FUNCTIONAL REQUIREMENTS:
+### FUNCTIONAL REQUIREMENTS:
 
 o	prediction
 o	ai chatbot
