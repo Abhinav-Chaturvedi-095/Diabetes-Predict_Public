@@ -30,7 +30,7 @@ A software project can be implemented using this model if the project can be bro
 ## REQUIREMENT ELICITATION & ANALYSIS
 
 
-•	### FUNCTIONAL REQUIREMENTS:
+	### FUNCTIONAL REQUIREMENTS:
 
 o	prediction
 o	ai chatbot
@@ -41,7 +41,7 @@ o	Dataset for training model
 
 
 
-•###	NON-FUNCTIONAL REQUIREMENTS:
+###	NON-FUNCTIONAL REQUIREMENTS:
 
 o	accuracy
 o	fast response
