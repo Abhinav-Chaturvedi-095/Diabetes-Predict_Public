@@ -1,0 +1,73 @@
+@media screen{
+		body{
+			margin: 0;
+			padding: 0;
+			/* text-align: center; */
+			font-family: sans-serif;
+			background-image: linear-gradient(120deg,#ffffff, #7ae99b);
+			min-height: 100vh;
+		}
+		#bmi_id{
+			width: 50rem;
+			/* position: absolute; */
+            text-align: center;
+			/* top: 50%; */
+			/* right: 50%; */
+            margin: auto;
+			background-color: #fff;
+			/* transform: translate(-50%, -50%); */
+			padding: 10px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 20px #04c95c;
+            margin-bottom: 8rem;
+		} 
+		h2{
+			font-size: 30px;
+			font-weight: 600;
+		}
+		.text{
+            margin-top: 2rem;
+			text-align: center;
+			/* margin-left: 150px; */
+		}
+		#w, #h{
+			color: #222f3e;
+			text-align: left;
+			font-size: 20px;
+			font-weight: 200;
+			outline: none;
+			border: none;
+			background: none;
+			border-bottom: 1px solid #341f97;
+			width: 200px;
+		}
+			#w:focus, #h:focus{
+				border-bottom: 2px solid #341f97;
+				width: 300px;
+				transition: 0.5s;
+			}
+			#result{
+				color: #341f97;
+				margin-top: 15px ;
+			}
+			#btn{
+				font-family: inherit;
+				margin-top: 10px;
+                margin-bottom: 5px;
+				border: none;
+				color: #fff;
+				background-image: linear-gradient(120deg,#ffc46b, #27cd5e);
+				width: 150px;
+				padding: 10px;
+				border-radius: 30px;
+				outline: none;
+				cursor: pointer;
+			}
+			#btn:hover{
+				box-shadow: 1px 1px 10px #341f97;
+			}
+			#info{
+				font-size: 12px;
+				font-family: inherit;
+			}
+}
