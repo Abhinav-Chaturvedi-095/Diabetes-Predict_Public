@@ -5,6 +5,8 @@ from flask_sqlalchemy import SQLAlchemy
 from os import path
 from flask_login import LoginManager
 from flask_login import login_required
+from flask_admin import Admin 
+from flask_admin.contrib.sqla import ModelView
 
 db = SQLAlchemy()
 DB_NAME = "database.db"
@@ -33,6 +35,9 @@ def create_app():
     @login_manager.user_loader
     def load_user(id):
         return User.query.get(int(id))
+    
+    admin = Admin(app)
+    admin.add_view(ModelView(User, db.session))
 
     return app
 
